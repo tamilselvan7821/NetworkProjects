@@ -4,7 +4,7 @@ FROM tomcat:11.0-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy WAR file
-COPY target/network.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/portfolio.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
